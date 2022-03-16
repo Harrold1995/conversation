@@ -1,0 +1,26 @@
+#themefix-wpconfig
+{
+	margin: .5em;
+	background: #eee;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 10px #173859;
+	-moz-box-shadow: 0 0 10px #173859;
+	box-shadow: 0 0 10px #173859;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.button-primary, .button-Secondary, .button-secondary{
+    margin-top: 5px !important;
+}
+#memory-tab{
+    font-size: 20px;
+    padding: 20px;
+    line-height: 22px;  
+     overflow:auto;
+     height: auto; 
+}

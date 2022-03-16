@@ -1,0 +1,5 @@
+/* do the admin related style here */
+
+tr.quiz_points_as_badgeos_points_hide {
+  display: none;
+}

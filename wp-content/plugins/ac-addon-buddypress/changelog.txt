@@ -1,0 +1,90 @@
+== Changelog ==
+
+= 1.6 =
+Release Date: September 21st, 2021
+
+* [Improved] Refactor of the editing codebase
+* [Dependency] Requires Admin Columns Pro 5.6
+
+= 1.5.1 =
+Release Date: April 19th, 2021
+
+* [Dependency] Requires Admin Columns Pro 5.4.4
+
+= 1.5 =
+Release Date: June 9th, 2020
+
+* [Improved] Major performance improvements when sorting BuddyPress fields on the list table
+* [Improved] Better PHP 7 support
+* [Dependency] Requires Admin Columns Pro 5.2
+
+= 1.4.2 =
+Release Date: March 30th, 2020
+
+* [Dependency] Requires Admin Columns Pro 5.1
+
+= 1.4.1 =
+Release Date: August 27th, 2019
+
+* [Added] Member Type Column for Users
+* [Added] User Status Column
+* [Improved] Removed Deprecated methods
+
+= 1.4 =
+Release Date: January 24th, 2019
+
+* [Added] Made compatible with Admin Columns Pro 4.5, Bulk Editing
+
+= 1.3.2 =
+Release Date: October 31st, 2018
+
+* [Improved] Made compatible with Admin Columns Pro 4.4, prepared for Smart Filtering
+
+= 1.3.1 =
+Release Date: July 30th, 2018
+
+* [Fixed] Profile Fields were not recognized for case sensitive  environments
+
+= 1.3 =
+Release Date: June 25th, 2018
+
+* [Added] Support for Groups overview page. Including inline edit support and custom columns
+* [Removed] Support for PHP 5.2. The minimum version required to run Admin Columns is now PHP 5.3+.
+
+= 1.2.1 =
+Release Date: March 23rd, 2018
+
+* [Added] Changed the Activity column to show specific activity types
+
+= 1.2 =
+Release Date: January 26th, 2018
+
+* [Improved] Made compatible with the Admin Columns Pro Date Setting changes
+* [Important] Only compatible with Admin Columns Pro 4.2 and higher
+
+= 1.1.2 =
+Release Date: December 12th, 2017
+
+* [Improved] Made compatible with the Admin Columns Pro Export feature
+* [Improved] You can now filter on users with or without a group
+
+= 1.1.1 =
+Release Date: October 2nd, 2017
+
+* [Improved] Show hidden groups in groups filter
+* [Improved] No page limit for group filter dropdown
+* [Improved] Made Ajax columns compatible with latest fix in Core
+
+= 1.1 =
+Release Date: June 26th, 2017
+
+* [Added] Groups columns that shows the groups an User is in. Including filtering support
+* [Added[ Last Seen column with filtering and sorting support
+* [Added[ Last Activity column
+* [Added[ Activity Updates column that shows the activity count. With filtering and sorting support
+* [Added[ Friends column with filtering support
+
+= 1.0 =
+Release Date: June 7th, 2017
+
+* [Added] Initial release of the BuddyPress add-on, works with Admin Columns version 4.0.5 and higher

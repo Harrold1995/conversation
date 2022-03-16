@@ -1,0 +1,96 @@
+== Changelog ==
+
+= 1.6.1 =
+Release Date: October 27th, 2021
+
+* [Fixed] Editing for the Event Checkbox (Extra fields) was not working correctly.
+
+= 1.6 =
+Release Date: September 21st, 2021
+
+* [Improved] Added extra display options for the Events Organizer column
+* [Improved] Refactor of the editing codebase
+* [Dependency] Requires Admin Columns Pro 5.6
+
+= 1.5 =
+Release Date: June 9th, 2020
+
+* [Improved] Major performance improvements when sorting events fields on the list table
+* [Improved] Better PHP 7 support
+* [Dependency] Requires Admin Columns Pro 5.2
+
+= 1.4.2 =
+Release Date: March 30th, 2020
+
+* [Dependency] Requires Admin Columns Pro 5.1
+
+= 1.4.1 =
+Release Date: August 27th, 2019
+
+* [Improved] Editing for start and end date now also update the duration
+* [Improved] Updated deprecated methods
+* [Dependency] Requires Admin Columns Pro 4.7.1
+
+= 1.4 =
+Release Date: January 24th, 2019
+
+* [Added] Made compatible with Admin Columns Pro 4.5, Bulk Editing
+* [Improved] Date columns now supports editing
+* [Improved] Now uses the Smart Filtering logic from the core
+* [Important] Only compatible with Admin Columns Pro 4.4.2 and higher
+
+= 1.3 =
+Release Date: November 14th, 2018
+
+* [Added] Smart Filtering
+
+= 1.2.3 =
+Release Date: October 31st, 2018
+
+* [Improved] Made compatible with Admin Columns Pro 4.4, prepared for Smart Filtering
+
+= 1.2.2 =
+Release Date: September 25th, 2018
+
+* [Added] Sorting for Event date column
+
+= 1.2.1 =
+Release Date: September 7th, 2018
+
+* [Fixed] Organizer Column checks for invalid values
+
+= 1.2 =
+Release Date: June 25th, 2018
+
+* [Removed] Support for PHP 5.2. The minimum version required to run Admin Columns is now PHP 5.3+.
+
+= 1.1.2 =
+Release Date: April 13th, 2018
+
+* [Added] Support for Event Additional Fields (Events Calendar Pro only)
+
+= 1.1.1 =
+Release Date: March 6th, 2018
+
+* [Fixed] Export for Events works again
+
+= 1.1 =
+Release Date: January 29th, 2018
+
+* [Added] Inline Edit support for Costs column
+* [Important] Only compatible with Admin Columns Pro 4.2 and higher
+
+= 1.0.2 =
+Release Date: December 12th, 2017
+
+* [Improved] Made compatible with the Admin Columns Pro Export feature
+
+= 1.0.1 =
+Release Date: October 4th, 2017
+
+* [Fixed] Bug that could cause an error on case-sensitive file systems
+
+= 1.0 =
+Release Date: October 3rd, 2017
+
+* [Added] Initial release of the Events Calendar integration add-on, works with Admin Columns Pro version 4.0.9 and higher

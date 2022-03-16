@@ -1,0 +1,120 @@
+#survey_pop_main_div {
+    display: none;
+    max-width: 900px;
+    width: 100%;
+    min-height: 500px;
+}
+
+
+.survey_pop_title_description_div {
+    text-align: center;
+}
+
+.survey_pop_title_description_div .survey_title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.survey_pop_title_description_div .survey_description {
+    font-size: 18px;
+}
+
+.survey_pre_next_question {
+    display: flex;
+    justify-content: center;
+}
+
+.survey_submit_button button {
+    display: none;
+    position: absolute;
+    right: 22%;
+}
+
+.survey_question_title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.survey_question_option_input {
+    width: 20px !important;
+    height: 20px !important;
+    color: blue !important;
+}
+
+.survey_question_option_input:after {
+    left: 1px !important;
+    top: 1px !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.survey_pop_up_modal {
+    top: 150px !important;
+}
+
+.survey_question_details_div {
+    padding: 15px;
+    border: 1px solid #e7e7e7;
+    background: #ebedfb;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.survey_question_options {
+    padding-left: 20px;
+}
+
+.survey_pre_next_question {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.open_survey_pop_up_div {
+    display: inline-block;
+}
+
+#survey_thank_you_pop_up {
+    display: none;
+    max-width: 500px;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    padding: 60px;
+}
+
+.survey_question_options_sub {
+    display: flex;
+    align-items: center;
+}
+
+.survey_question_option_input {
+    margin-right: 5px;
+}
+
+.easy-navigation {
+    width: 100%;
+    text-align: center;
+
+}
+
+span.breadcrumb {
+    background-color: #e7e7e7;
+    height: 5px;
+    border: 1px solid #e7e7e7;
+    display: inline-block;
+    margin: 1px;
+}
+span.breadcrumb.attempting {
+    background-color: #0274be;
+    border-color: #0274be;
+}
+#survey_thank_you_pop_up h2 {
+    font-size: 24px;
+}

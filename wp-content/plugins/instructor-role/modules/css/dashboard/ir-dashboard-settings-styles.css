@@ -1,0 +1,19 @@
+.ir-dashboard-image-field, .ir-dashboard-text-field {
+    /* display: none; */
+}
+
+.ir-hide {
+    display: none;
+}
+
+#ir-dashboard-image-container img{
+    width: 200px;
+}
+
+.ir-dashboard-settings-form {
+    text-align: left;
+}
+
+.ir-dashboard-settings-form table td {
+    padding: 15px;
+}

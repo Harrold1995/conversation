@@ -1,0 +1,93 @@
+.rrf_survey_report_title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* .rrf_survey_course_details_form_fields, .rrf_actual_user_response_report {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+} */
+
+/* .rrf_survey_course_details_form_fields div, .rrf_after_filter_details_questions div { */
+    /* margin: 0 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+/* } */
+
+/* .rrf_survey_course_details_form_fields_course label, .rrf_survey_course_details_form_fields_from label, .rrf_survey_course_details_form_fields_to label {
+    padding: 0 10px;
+} */
+
+/* .rrf_after_filter_details {
+    margin-top: 30px;
+    padding: 15px 10%;
+} */
+
+/* .rrf_actual_user_based_report {
+    width: 30%;
+} */
+
+.user_based_report {
+    display: none;
+    margin-top: 40px;
+    margin-bottom: 11px;
+}
+
+.rrf_actual_chart_based_report {
+    width: 90%;
+}
+
+.rrf_report_table , .rrf_report_table tr, .rrf_report_table th, .rrf_report_table td,
+.rrf_detail_report_table, .rrf_detail_report_table tr, .rrf_detail_report_table th, .rrf_detail_report_table td {
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    text-align: center;
+}
+
+.rrf_survey_course_details_form_fields div {
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.rrf_get_report_button {
+    padding: 5px;
+}
+
+.question_handling_section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.rrf_after_filter_details {
+    display: none;
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
+.question_handling_section {
+    display: none;
+}
+
+/*.rrf_survey_report_main_one {
+    width: 40%;
+}
+
+.rrf_actual_user_response_report {
+    width: 60%;
+}
+
+.rrf_survey_report_main {
+    display: flex;
+}
+*/
+.rrf_survey_course_details_form_fields {
+    display: flex;
+    justify-content: flex-start;
+}
+.rrf_after_filter_details_course {
+    margin-bottom: 10px;
+}

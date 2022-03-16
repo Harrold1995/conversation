@@ -1,0 +1,158 @@
+{
+    "name": "codeat\/glossary",
+    "description": "A simple WordPress plugin to help create glossary in order to improve SEO and time spent on website.",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Codeat",
+            "email": "support@codeat.co",
+            "homepage": "https:\/\/codeat.co"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ayecode\/wp-super-duper": "2.0.2",
+        "cmb2\/cmb2": "2.9.*",
+        "composer\/installers": "1.x",
+        "cweagans\/composer-patches": "~1.0",
+        "devaloka\/network-wp-query": "^0.2.0",
+        "freemius\/wordpress-sdk": "2.4.*",
+        "julien731\/wp-review-me": "dev-develop",
+        "micropackage\/requirements": "^1.1",
+        "mte90\/extended-cpts": "^4.5",
+        "mte90\/wp-notice": "^3.1",
+        "rubengc\/cmb2-field-ajax-search": "^1.0",
+        "wpbp\/cronplus": "1.0.*",
+        "wpbp\/widgets-helper": "1.0.*",
+        "wpdesk\/wp-builder": "^1.0 || ^2.0",
+        "yoast\/i18n-module": "3.1.*"
+    },
+    "require-dev": {
+        "ampproject\/amp-wp": "2.2.0",
+        "codeatcode\/codeatcs": "^1.0",
+        "codeception\/codeception": "4.1.*",
+        "codeception\/module-asserts": "^1.0",
+        "codeception\/module-cli": "^1.0",
+        "codeception\/module-db": "^1.0",
+        "codeception\/module-filesystem": "^1.0",
+        "codeception\/module-phpbrowser": "^1.0",
+        "codeception\/module-rest": "^1.2",
+        "codeception\/module-webdriver": "^1.0",
+        "dealerdirect\/phpcodesniffer-composer-installer": "^0.7",
+        "ergebnis\/composer-normalize": "^2.6",
+        "lucatume\/function-mocker": "~1.0",
+        "lucatume\/wp-browser": "^3.0",
+        "pcov\/clobber": "^2.0",
+        "php-stubs\/acf-pro-stubs": "5.*",
+        "php-stubs\/genesis-stubs": "^3.3",
+        "phpro\/grumphp": "^1.7",
+        "phpunit\/php-code-coverage": "^9.2",
+        "szepeviktor\/phpstan-wordpress": "^1.0.2"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "mte90\/extended-cpts",
+                "version": "4.5.2",
+                "autoload": {
+                    "files": [
+                        "extended-cpts.php"
+                    ]
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https:\/\/github.com\/mte90\/extended-cpts.git",
+                    "reference": "patch-1"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ampproject\/amp-wp",
+                "version": "2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https:\/\/github.com\/ampproject\/amp-wp.git",
+                    "reference": "develop"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "rubengc\/cmb2-field-ajax-search",
+                "version": "1.0.0",
+                "autoload": {
+                    "files": [
+                        "cmb2-field-ajax-search.php"
+                    ]
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https:\/\/github.com\/mte90\/cmb2-field-ajax-search.git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mte90\/wp-notice",
+                "version": "3.1.0",
+                "autoload": {
+                    "psr-4": {
+                        "WPDesk\\Notice\\": "src\/WPDesk\/Notice\/"
+                    },
+                    "files": [
+                        "src\/WPDesk\/notice-functions.php"
+                    ]
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https:\/\/gitlab.com\/mte90\/wp-notice.git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "git",
+            "url": "https:\/\/github.com\/ayecode\/wp-super-duper"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Glossary\\Backend\\": "backend",
+            "Glossary\\Cli\\": "cli",
+            "Glossary\\Engine\\": "engine",
+            "Glossary\\Frontend\\": "frontend",
+            "Glossary\\Integrations\\": "integrations",
+            "Glossary\\Internals\\": "internals"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer\/installers": true,
+            "cweagans\/composer-patches": true,
+            "dealerdirect\/phpcodesniffer-composer-installer": true,
+            "ergebnis\/composer-normalize": true,
+            "phpro\/grumphp": true
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor\/{$name}\/": [
+                "cmb2\/cmb2",
+                "devaloka\/network-wp-query"
+            ]
+        },
+        "patches": {
+            "ayecode\/wp-super-duper": {
+                "Fix v2": "https:\/\/patch-diff.githubusercontent.com\/raw\/AyeCode\/wp-super-duper\/pull\/25.patch"
+            }
+        }
+    }
+}
